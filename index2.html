@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>FINAL PHASE-0: COUNTDOWN</title>
+    </head>
+    <body class="kadua">
+        <section class="form">
+            <form id="submit" onsubmit="waktu()">
+                <label for="tanggal">Tanggal:</label><br>
+                <input id="tanggal" name="tanggal" type="text" placeholder="Value: 1 - 31"><br>
+                <label for="bulan">Bulan:</label><br>
+                <input id="bulan" name="bulan" type="text" placeholder="In English"><br>
+                <label for="tahun">Tahun:</label><br>
+                <input id="tahun" name="tahun" type="text" placeholder="Year"><br>
+                <label for="jam">Jam:</label><br>
+                <input id="jam" name="jam" type="text" placeholder="Value: 0 - 24"><br>
+                <label for="menit">Menit:</label><br>
+                <input id="menit" name="menit" type="text" placeholder="Value: 0 - 59"><br>
+                <label for="detik">Detik:</label><br>
+                <input id="detik" name="detik" type="text" placeholder="Value: 0 - 59">
+                <!-- <button onsubmit="waktu()" class="tombol">MULAI</button> -->
+                <p class="tombol">Silahkan langsung saja masukan waktu pada form yang tersedia. Tidak usah perdulikan NaN dibawah. Lalu reload kembali halamannya, maka CountDown akan berjalan. Masalah ini akan segera saya perbaiki jika saya sudah mendapatkan ilmu lebih. Selebihnya ini dulu yang bisa saya berikan, akan diperbaiki dalam tempo secepat-cepatnya.</p>
+            </form>
+            <p id="cek"></p>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

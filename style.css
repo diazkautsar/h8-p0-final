@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.kadua {
+    background-image: url(kembangapi.JPG);
+}
+
+header {
+    background-color: #333333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    height: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+header .judul {
+    margin-top: 5px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.link {
+    position: relative;
+    top: 50px;
+    left: 36%;
+}
+
+.dualogo {
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+
+.dualogo .logoeropa {
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+    padding-right: 125px;
+    padding-left: 20px;
+}
+
+.dualogo .logopildun {
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+    padding-left: 125px;
+}
+
+.hitung {
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+
+.hitung #hitungeropa {
+    border: 4px solid black;
+    position: relative;
+    bottom: 350px;
+    left: 10px;
+    font-size: 50px;
+    border-radius: 15px;
+}
+
+.hitung #hitungpildun {
+    border: 4px solid black;
+    position: relative;
+    bottom: 350px;
+    left: 250px;
+    font-size: 50px;
+    border-radius: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background-color: #333333;
+    padding: 15px 0;
+}
+
+footer h5 {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+footer nav a {
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+    font-size: 25px;
+    color: black;
+}
+
+#submit {
+    padding: 1em;
+    margin: 1em auto;
+    width: 50em;
+    background: #fff;
+    border-radius: 3px;
+}
+
+label {
+    font-size: 10pt;
+    color: #555;
+}
+
+#tanggal, #bulan, #tahun, #jam, #menit, #detik, .tombol {
+    padding: 8px;
+    width: 95%;
+    background: #efefef;
+    border: 0;
+    font-size: 10pt;
+    margin: 6px 0px;
+}
+
+.tombol {
+    background: #3498db;
+    color: #fff;
+    border: 0;
+    padding: 5px 8px;
+}
+
+#cek {
+    font-size: 50px;
+    color: red;
+    border: 5px solid greenyellow;
+    position: fixed;
+    left: 25%;
+    bottom: 0px;
+}
